@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Converter Currency</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="converter-container">
+      <h1>Currency Converter</h1>
+      <div class="content">
+        <input
+          type="number"
+          value="1.00"
+          placeholder="Enter Amount"
+          class="enter-amount"
+        />
+      </div>
+
+      <div class="select-container">
+        <div>
+          <select name="" id="from">
+            <option value="USD">USD - U.S Doller</option>
+          </select>
+          <select name="" id="to">
+            <option value="USD">USD - U.S Doller</option>
+          </select>
+        </div>
+
+        <div class="swap-btn">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="w-6 h-6"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M3 7.5L7.5 3m0 0L12 7.5M7.5 3v13.5m13.5 0L16.5 21m0 0L12 16.5m4.5 4.5V7.5"
+            />
+          </svg>
+        </div>
+      </div>
+
+      <div class="currency-result"><span class="currency">USD </span>00</div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
